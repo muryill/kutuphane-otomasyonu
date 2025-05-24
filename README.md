@@ -1,19 +1,23 @@
 # Kütüphane Otomasyonu (C Dili)
 
 Bu proje, C dili kullanılarak geliştirilmiş basit bir kütüphane yönetim sistemidir.  
-Kullanıcılar kitap ekleyebilir, silebilir ve listeleyebilir.
+Kullanıcılar kitap ekleyebilir, silebilir, listeleyebilir; ödünç alma ve iade işlemleri gerçekleştirebilir.
 
 ## Özellikler
-- Kitap ekleme
-- Kitap listeleme
-- Kitap silme
-- Dosya tabanlı veri yönetimi (kitaplar.txt, kullanıcılar.txt, oduncular.txt)
+- Kitap ekleme, silme, güncelleme, arama
+- Kullanıcı işlemleri
+- Kitap ödünç alma ve geri getirme
+- Dosya tabanlı veri kaydı 
 
-## Dosyalar
-- `main.c`: Ana kaynak kod
-- `kitaplar.txt`, `kullanicilar.txt`, `oduncular.txt`: Örnek veri dosyaları
-- `kutuphane.cbp`: Code::Blocks proje dosyası
+## Kullanılan Teknolojiler
+- C Programlama Dili
+- Code::Blocks IDE
 
 ## Derleme ve Çalıştırma
-1. Code::Blocks ile projeyi açın
-2. Derleyip çalıştırın
+1. `kutuphane.cbp` dosyasını Code::Blocks ile açın.
+2. Derleyip çalıştırın.
+3. Uygulama `.txt` dosyalarıyla veri kayıtlarını sürdürür.
+
+## Not
+- `.txt` veri dosyaları program çalışırken otomatik oluşur.
+- Kodlar tamamen fonksiyonel ve menü tabanlı yapıdadır.
