@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-// kitap kullanıcı ve ödünç için structlar oluşturduk
+// kitap kullanıcı ve ödünç için structlar oluşturdum
 struct Kitap
 {
 	int numara;
@@ -30,7 +30,7 @@ struct Odunc
 	char bitis_tarihi[11];
 
 };
-//fonkisyonları tanımladık aşşağıda kullanabilmek için
+//fonkisyonları tanımladım aşşağıda kullanabilmek için
 void menu();
 void kitapIslemleri();
 void kullaniciIslemleri();
@@ -50,7 +50,7 @@ struct Odunc odunclar[100];
 //ödünç sayısını tutan değişken
 int oduncSayisi = 0;
 
-// kullanacağımız fonksiyonları tanımladık
+// kullanacağımız fonksiyonları tanımladım
 void dosyadanKitapOku();
 void dosyayaKitapYaz();
 void kitapEkle();
