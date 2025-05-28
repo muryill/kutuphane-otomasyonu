@@ -1,4 +1,4 @@
-# Kütüphane Otomasyonu (C Dili)
+ # Kütüphane Otomasyonu (C Dili)
 
 Bu proje, C dili kullanılarak geliştirilmiş basit bir kütüphane yönetim sistemidir.  
 Kullanıcılar kitap ekleyebilir, silebilir, listeleyebilir; ödünç alma ve iade işlemleri gerçekleştirebilir.
@@ -21,3 +21,9 @@ Kullanıcılar kitap ekleyebilir, silebilir, listeleyebilir; ödünç alma ve ia
 ## Not
 - `.txt` veri dosyaları program çalışırken otomatik oluşur.
 - Kodlar tamamen fonksiyonel ve menü tabanlı yapıdadır.
+
+##  Geliştiren
+
+**Murat Yıldız** – Bilgisayar Mühendisliği Öğrencisi  
+GitHub: [github.com/muryill](https://github.com/muryill)
+
